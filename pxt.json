@@ -1,0 +1,30 @@
+{
+    "name": "startbit",
+    "version": "0.0.1",
+    "description": "Blocks for Hiwonder startbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "StartbitRGBLight.ts",
+        "sendbuffer.asm",
+        "_locales/zh/startbit-strings.json",
+        "_locales/zh/startbit-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "3.1.47",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
